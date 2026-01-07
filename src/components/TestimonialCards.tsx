@@ -47,8 +47,8 @@ function MusicSchoolTestimonials() {
       />
 
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-gray-900"></div>
-      <div className="relative flex flex-col items-center justify-center overflow-hidden p-3">
-        <h2 className="text-3xl font-bold text-center mb-8 z-10">
+      <div className="relative flex flex-col items-center justify-center overflow-hidden">
+        <h2 className="text-3xl font-bold text-center mb-8 z-10 p-1">
           Hear our Harmony: Voices of success
         </h2>
         <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
