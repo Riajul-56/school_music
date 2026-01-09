@@ -7,6 +7,9 @@ import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 const HeroSection = () => {
    const words = [
      {
+       text: "Master",
+     },
+     {
        text: "The",
      },
      {
