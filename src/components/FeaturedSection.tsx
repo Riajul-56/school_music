@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import courseData from "../data/music_courses.json";
-import { p } from "framer-motion/client";
 import { BackgroundGradient } from "./ui/background-gradient";
 
 interface Course {
