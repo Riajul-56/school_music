@@ -3,26 +3,26 @@ import { Spotlight } from "./ui/Spotlight";
 import { Button } from "./ui/moving-border";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 
-
 const HeroSection = () => {
-   const words = [
-     {
-       text: "Master",
-     },
-     {
-       text: "The",
-     },
-     {
-       text: "Art",
-     },
-     {
-       text: "of",
-     },
-     {
-       text: "Music",
-       className: "text-blue-500 dark:text-blue-700",
-     },
-   ];
+  const words = [
+    {
+      text: "Master",
+    },
+    {
+      text: "The",
+    },
+    {
+      text: "Art",
+    },
+    {
+      text: "of",
+    },
+    {
+      text: "Music",
+      className: "text-blue-500 dark:text-blue-700",
+    },
+  ];
+
   return (
     <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
       <Spotlight
@@ -30,10 +30,12 @@ const HeroSection = () => {
         fill="white"
       />
 
-      <div className="p-4 relative z-10 w-full text-center">
-        <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          <TypewriterEffectSmooth words={words} className="justify-center" />
-        </h1>
+      <div className="py-4 px-2 relative z-10 w-full text-center">
+        <div className="w-full flex justify-center">
+          <h1 className="mt-20 w-full max-w-4xl">
+            <TypewriterEffectSmooth words={words} />
+          </h1>
+        </div>
 
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
           Dive into our comprehensive music courses and transform your musical
